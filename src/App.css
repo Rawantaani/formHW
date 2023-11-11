@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+
+    border: solid 2px rgb(204, 201, 201);
+
+
+}
+
+input:focus {
+
+    border: none;
+
+    outline-color: rgb(28, 28, 82);
+}
+
+
+.button {
+
+    display: flex;
+    justify-content: center;
+    /* Align horizontally in the center */
+    align-items: center;
+
+}
+
+.bt {
+    background-color: rgb(28, 28, 82);
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    width: 100%;
+    padding: 4px;
+}
+
+hr {
+    border: 0;
+    height: 4px;
+    background: rgb(188, 7, 7);
+
+    margin: 20px 0;
+ 
+}
+.iconBtn{
+    background-color: white;
+    border: none;
+    
+
+}
